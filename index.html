@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Học lớp 10</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            //Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
+            var tuoi;
+            tuoi = parseInt(prompt("Nhập tuổi học sinh: "));
+            while(tuoi>=15){
+                alert("Đã đủ tuổi học lớp 10");
+                tuoi = parseInt(prompt("Nhập tuổi học sinh: "));
+            }while(tuoi<15){
+                alert("Chưa đủ tuổi học lớp 10");
+                tuoi = parseInt(prompt("Nhập tuổi học sinh: "));
+            }
+        </script>
+    </body>
+</html>
